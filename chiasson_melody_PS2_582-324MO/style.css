@@ -1,0 +1,109 @@
+:root {
+    --gradient: #121216, #302e3a , #121216;
+    --white: #ffffff;
+    --grey: #262530;
+    --yellow: #ffbb00;
+    --black: #000000;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Titan One";
+    src: url(assets/fonts/TitanOne-Regular.ttf) format("truetype");
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Open Sans";
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(var(--gradient));
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#jeu {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 25px 25px rgb(0,0,0,0.5);
+    border-radius: 10px;
+    border: solid 1px var(--yellow);
+}
+
+.logo {
+    font-family: "Titan One";
+    color: var(--yellow);
+    font-size: 80px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 80%;
+    height: 100%;
+}
+
+.image {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.options {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--yellow);
+}
+
+.buttons:hover {
+    background-color: var(--white);
+    transform: scale(1.1);
+}
