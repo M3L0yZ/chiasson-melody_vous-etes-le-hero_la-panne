@@ -9,3 +9,5 @@
 ## Diagramme
 <br>
 
+![diagramme](chiasson_melody_PS2_582-324MO/assets/schema/chiasson_melody_schema_ps2.png)
+
